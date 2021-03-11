@@ -1,86 +1,56 @@
-#                       gulp
-   
-//для додавання з caniuse.com префіксів
-//https://www.npmjs.com/package/gulp-autoprefixer
-const gulp = require('gulp');
-const autoprefixer = require('gulp-autoprefixer');
- 
-gulp.task('default', () =>
-     gulp.src('css/1.css')
-    .pipe(autoprefixer({
-    browsers: ['last 20 versions'],
-    cascade: false
-}))
-    .pipe(gulp.dest('dist'))
-);
-          
+# Gulp 2021
+
+Gulp 2021 ...
+
+Demo
+https://igorkob.github.io/Gulp2021
+
+## Table of contents
+* [Instructions](#Instructions)
+* [Description](#Description)
+* [Technologies](#Technologies)
 
 
+## Instructions
 
-                     css
-З’єднує файли css
-https://www.npmjs.com/package/gulp-concat-css
+First clone this repository.
+```bash
+$ git clone https://github.com/IgorKob/Gulp2021.git
+```
 
-плагін для мінімізації CSS
-https://www.npmjs.com/package/gulp-clean-css
+Install dependencies. Make sure you already have [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
 
-плагін для легкого перейменування файлів.
-https://www.npmjs.com/package/gulp-rename
+```bash
+$ npm install # or yarn
+```
 
-Видаліть невикористаний CSS
-https://www.npmjs.com/package/gulp-uncss-sp
+Run it
+./dist - (html, css, scss, js, img, fonts, watch)
+```bash
+$ gulp 
+```
 
-автоматично форматує ваш стиль, щоб він був послідовним і легким для читання
-https://www.npmjs.com/package/gulp-cssbeautify
+./build
+```bash
+$ gulp build 
+```
 
+GitHub Pages deploy
+```bash
+$ gulp deploy
+```
 
+## Description
+This is a simple app using public [`Gulp`](https://gulpjs.com/).
 
-                 js 
-https://www.npmjs.com/package/gulp-concat
-
-https://www.npmjs.com/package/gulp-jscs-with-reporter
-
-https://www.npmjs.com/package/gulp-babel
-
-https://www.npmjs.com/package/gulp-jshint
-
-
-
-
-
-               image
-https://www.npmjs.com/package/gulp-imagemin
-
-Зміна розмірів зображення
-https://www.npmjs.com/package/gulp-image-resize
-
-https://www.npmjs.com/package/gulp-img-retina
-
-Створює зображення різного розміру
-https://www.npmjs.com/package/gulp-responsive
-
-https://www.npmjs.com/package/gulp-imacss
-
-
-
-
-               all
-https://www.npmjs.com/package/gulp-less
-
-https://www.npmjs.com/package/gulp-sass
-
-https://www.npmjs.com/package/gulp-react-templates
-
-https://www.npmjs.com/package/gulp-angular-templatecache
-
-https://www.npmjs.com/package/gulp-autoprefixer
-
-для запуску локального веб-сервера з перезавантаженням в реальному часі за допомогою socket.io
-https://www.npmjs.com/package/gulp-server-livereload
-
-
-
-
-
-
-
+## Technologies
+Project uses:
+* Html
+* Css
+* Scss
+* Js
+* Image
+* Fonts
+* Gulp
+* Gulp-rigger
+* ...
