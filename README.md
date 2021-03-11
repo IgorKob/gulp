@@ -2,9 +2,6 @@
 
 Gulp 2021 ...
 
-Demo
-https://igorkob.github.io/Gulp2021
-
 ## Table of contents
 * [Instructions](#Instructions)
 * [Description](#Description)
@@ -15,7 +12,7 @@ https://igorkob.github.io/Gulp2021
 
 First clone this repository.
 ```bash
-$ git clone https://github.com/IgorKob/Gulp2021.git
+$ git clone https://github.com/IgorKob/gulp.git
 ```
 
 Install dependencies. Make sure you already have [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
@@ -24,7 +21,7 @@ Install dependencies. Make sure you already have [`nodejs`](https://nodejs.org/e
 $ npm install # or yarn
 ```
 
-Run it
+## Run it:
 ./dist - (html, css, scss, js, img, fonts, watch)
 ```bash
 $ gulp 
